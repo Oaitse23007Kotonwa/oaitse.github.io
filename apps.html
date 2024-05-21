@@ -47,7 +47,21 @@
         .resources li {
             margin-bottom: 3px; /* Adjusted margin for resources list items */
         }
-       
+          /* Footer styling */
+    .footer .row {
+      display: flex; /* Make footer row a flexbox container */
+      justify-content: space-between; /* Distribute elements evenly */
+      align-items: center; /* Align vertically */
+    }
+    .footer .col {
+      padding: 0 10px; /* Add horizontal padding for separation */
+    }
+    .footer .social-icons {
+      display: flex; /* Make social icons a flexbox container */
+    }
+    .footer .resources {
+      text-align: right; /* Align resources list to the right */
+    }
     </style>
 </head>
 <body>
@@ -309,32 +323,33 @@
 					  </div>
 					
 	
-     <footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <ul class="social-icons">
-          <li><a href="https://www.facebook.com/warnerbrosent"><img src="facebook.png" alt="Facebook"></a></li>
-          <li><a href="https://www.twitter.com/WBHomeEnt"><img src="twitter.png" alt="Twitter"></a></li>
-          <li><a href="https://www.instragram.com/warnerbrosentertainment"><img src="instagram.png" alt="Instagram"></a></li>
-          <li><a href="https://www.youtube.com"><img src="youtube.png" alt="YouTube"></a></li>
-        </ul>
-      </div>
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul class="social-icons">
+            <li><a href="https://www.facebook.com/warnerbrosent"><img src="facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.twitter.com/WBHomeEnt"><img src="twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://www.instragram.com/warnerbrosentertainment"><img src="instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://www.youtube.com"><img src="youtube.png" alt="YouTube"></a></li>
+          </ul>
+        </div>
 
-      <div class="col">
-        <h4>Resources</h4>
-        <ul>
-          <li><a href="about us.html">About Us</a></li>
-          <li><a href="legacy data.html">Legacy Data</a></li>
-          <li><a href="contact us.html">Contact Us</a></li>
-        </ul>
-      </div>
+        <div class="col resources">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="legacy data.html">Legacy Data</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+          </ul>
+        </div>
 
-      <div class="col text-end"> <p>&copy; 2022 MovieWebPage. All Rights Reserved.</p>
+        <div class="col text-end">
+          <p>&copy; 2022 MovieWebPage. All Rights Reserved.</p>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>   
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
